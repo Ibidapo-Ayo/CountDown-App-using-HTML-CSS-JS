@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100%;
+}
+.container .title{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.container .title h2{
+    color: #000;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.container .input-value{
+    width: 100%; 
+    margin-top: 100px;
+}
+.container .input-value .value{
+    margin: auto;
+    display: block;
+    width: 400px;
+    padding: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid #70b334;
+}
+.container .input-value .startBtn 
+{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.container .input-value .startBtn button{
+    width: 200px;
+    padding: 20px;
+    font-family: sans-serif;
+    border-radius: 20px;
+    outline: none;
+    background: #70b334;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.container .display-count{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 100px;
+}
+.container .display-count h5{
+    color: #70b334;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+}
